@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F6A0486A84900D96B5E /* pricer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* pricer.1 */; };
+		D5084BC3105FA7C100E81339 /* PricerOpt64.macho64 in Frameworks */ = {isa = PBXBuildFile; fileRef = D5084BC2105FA7C100E81339 /* PricerOpt64.macho64 */; };
+		D5D6334C105E9862009DB387 /* Pricer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D6333C105E9862009DB387 /* Pricer.cpp */; };
+		D5D6334E105E9862009DB387 /* PricerMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D63343105E9862009DB387 /* PricerMain.cpp */; };
+		D5D63351105E9862009DB387 /* PricerStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5D63349105E9862009DB387 /* PricerStream.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* pricer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76F6C0486A84900D96B5E /* pricer64 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pricer64; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* pricer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = pricer.1; sourceTree = "<group>"; };
+		D5084B95105FA1DD00E81339 /* PricerOpt64.nasm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.nasm; name = PricerOpt64.nasm; path = ../../src/PricerOpt64.nasm; sourceTree = SOURCE_ROOT; };
+		D5084BC2105FA7C100E81339 /* PricerOpt64.macho64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = PricerOpt64.macho64; path = ../../src/PricerOpt64.macho64; sourceTree = SOURCE_ROOT; };
+		D5D6333C105E9862009DB387 /* Pricer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pricer.cpp; path = ../../src/Pricer.cpp; sourceTree = SOURCE_ROOT; };
+		D5D6333D105E9862009DB387 /* Pricer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pricer.h; path = ../../src/Pricer.h; sourceTree = SOURCE_ROOT; };
+		D5D6333E105E9862009DB387 /* PricerBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerBook.h; path = ../../src/PricerBook.h; sourceTree = SOURCE_ROOT; };
+		D5D6333F105E9862009DB387 /* PricerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerConfig.h; path = ../../src/PricerConfig.h; sourceTree = SOURCE_ROOT; };
+		D5D63342105E9862009DB387 /* PricerDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerDefs.h; path = ../../src/PricerDefs.h; sourceTree = SOURCE_ROOT; };
+		D5D63343105E9862009DB387 /* PricerMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PricerMain.cpp; path = ../../src/PricerMain.cpp; sourceTree = SOURCE_ROOT; };
+		D5D63344105E9862009DB387 /* PricerOpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerOpt.h; path = ../../src/PricerOpt.h; sourceTree = SOURCE_ROOT; };
+		D5D63347105E9862009DB387 /* PricerOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerOrder.h; path = ../../src/PricerOrder.h; sourceTree = SOURCE_ROOT; };
+		D5D63348105E9862009DB387 /* PricerParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerParser.h; path = ../../src/PricerParser.h; sourceTree = SOURCE_ROOT; };
+		D5D63349105E9862009DB387 /* PricerStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PricerStream.cpp; path = ../../src/PricerStream.cpp; sourceTree = SOURCE_ROOT; };
+		D5D6334A105E9862009DB387 /* PricerStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerStream.h; path = ../../src/PricerStream.h; sourceTree = SOURCE_ROOT; };
+		D5D6334B105E9862009DB387 /* PricerXplat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PricerXplat.h; path = ../../src/PricerXplat.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5084BC3105FA7C100E81339 /* PricerOpt64.macho64 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* pricer64 */ = {
+			isa = PBXGroup;
+			children = (
+				D5084BC1105FA7A600E81339 /* Prebuilt */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = pricer64;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D5084B95105FA1DD00E81339 /* PricerOpt64.nasm */,
+				D5D6333C105E9862009DB387 /* Pricer.cpp */,
+				D5D6333D105E9862009DB387 /* Pricer.h */,
+				D5D6333E105E9862009DB387 /* PricerBook.h */,
+				D5D6333F105E9862009DB387 /* PricerConfig.h */,
+				D5D63342105E9862009DB387 /* PricerDefs.h */,
+				D5D63343105E9862009DB387 /* PricerMain.cpp */,
+				D5D63344105E9862009DB387 /* PricerOpt.h */,
+				D5D63347105E9862009DB387 /* PricerOrder.h */,
+				D5D63348105E9862009DB387 /* PricerParser.h */,
+				D5D63349105E9862009DB387 /* PricerStream.cpp */,
+				D5D6334A105E9862009DB387 /* PricerStream.h */,
+				D5D6334B105E9862009DB387 /* PricerXplat.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* pricer64 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* pricer.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		D5084BC1105FA7A600E81339 /* Prebuilt */ = {
+			isa = PBXGroup;
+			children = (
+				D5084BC2105FA7C100E81339 /* PricerOpt64.macho64 */,
+			);
+			name = Prebuilt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* pricer64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "pricer64" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pricer64;
+			productInstallPath = "$(HOME)/bin";
+			productName = pricer64;
+			productReference = 8DD76F6C0486A84900D96B5E /* pricer64 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "pricer64" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* pricer64 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* pricer64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5D6334C105E9862009DB387 /* Pricer.cpp in Sources */,
+				D5D6334E105E9862009DB387 /* PricerMain.cpp in Sources */,
+				D5D63351105E9862009DB387 /* PricerStream.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = pricer64;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = pricer64;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				GCC_MODEL_PPC64 = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "PRICER_64BIT_LINUXOSX_ASSEMBLER_OPT=1";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				NASM_OTHER_FLAGS = "-d_X8664 -f macho64";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = pricer64_d;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SYMROOT = ../../bin;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_MODEL_PPC64 = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "PRICER_64BIT_LINUXOSX_ASSEMBLER_OPT=1";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_NONCONFORMANT_CODE_ERRORS_AS_WARNINGS = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				NASM_OTHER_FLAGS = "-d_X8664 -f macho64";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = pricer64;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				SYMROOT = ../../bin;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "pricer64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "pricer64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+echo Building elf64 \( e.g. Linux 64-bit \) version w/assembler optimization
+
+cd projects/unix_x8664elf
+make
+cd ../..
